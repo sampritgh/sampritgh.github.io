@@ -1,0 +1,200 @@
+body {
+    margin: auto;
+	  background-color: #f2f2f2;
+	  width: auto;
+	  font-family: sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.wraper{
+	width:auto;
+	display:block;
+	margin: 0 auto 0 auto;
+	padding: 0 10px 0 10px;
+}
+
+#CornerPhoto {
+  padding-right: 1%;
+	height:300px;
+  width: 28%;
+	float:right;
+}
+#CornerPhoto2 {
+  padding-right: 1%;
+	height:100px;
+  width: 28%;
+	float:right;
+}
+#headpart {
+
+	  height:100px;
+    background-color:#fdf8ee;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#headpart2 {
+    width:auto;
+	  height:85px;
+    background-color:#ffbf80;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-top: 0.5%;
+    color:000000;
+}
+
+#headtext {
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	  float: left;
+    text-align:left;
+    font-size: 100%;
+    color:#ffffff;
+  }
+
+
+.block1{
+  background-color:#fdf8ee;
+	float:left;
+	width:5%;
+  height:300px;
+	box-sizing:border-box;
+}
+.block2{
+  background-color:#51371a;
+	float:left;
+	width:65%;
+  height:300px;
+	box-sizing:border-box;
+}
+.block3{
+  background-color:#f2f2f2;
+	float:left;
+	width:60%;
+  padding-left: 5%;
+  padding-top: 2%;
+  height:100%;
+	box-sizing:border-box;
+}
+.block31{
+  background-color:#f2f2f2;
+	float:left;
+	width:75%;
+  padding-left: 5%;
+  padding-top: 2%;
+  height:100%;
+	box-sizing:border-box;
+  line-height: 1.5em;
+}
+.block4{
+    background-color:#042a5c;
+  	float:left;
+  	width:100%;
+    height:110px;
+  	box-sizing:border-box;
+  }
+.block5{
+  background-color:#f2f2f2;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+	float:left;
+	width:35%;
+	box-sizing:border-box;
+}
+.block51{
+  background-color:#f2f2f2;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
+	float:left;
+	width:45%;
+	box-sizing:border-box;
+}
+.block6{
+  background-color:#f2f2f2;
+	float:left;
+	width:50%;
+  padding-left: 5%;
+  padding-top: 2%;
+  height:100%;
+	box-sizing:border-box;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #021e42;
+  overflow: hidden;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration:none;
+  font-size: 22px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #337ab7;
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #337ab7;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Footer */
+.blockend{
+  background-color:#2b1d0e;
+  float:left;
+  height:50px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  color: #f2f2f2;
+
+}
